@@ -1,0 +1,32 @@
+.my-name {
+    color: rgb(168, 7, 133);
+    
+    font-size: 85px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 20mm;
+    margin-top: 10mm;
+    
+    
+    font-weight: bolder;
+    font-stretch: narrower;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+    
+.julian {
+    width: 20%;
+    margin-left: 200mm;
+    border: 5px solid black
+}
+
+.my-goal {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 50mm;
+    margin-bottom: 10mm;
+    
+    font-weight: bolder;
+    font-stretch: narrower;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
