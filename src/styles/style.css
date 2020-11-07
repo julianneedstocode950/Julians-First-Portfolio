@@ -68,6 +68,123 @@ a:hover {
 
 .page-wrapper {
     
+}
+.index-body {
+    
+}
 
+
+
+.contact-body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/greenaurora.jpg);
+    background-size: cover;
+}
+
+.contact {
+    width: 85%;
+    max-width: 600px;
+    background: rgb(179, 9, 24);
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: arial
 
 }
+
+.contact-heading {
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.textbox {
+    border:2px solid rgb(219, 233, 20);
+    margin: 8px 0;
+    padding: 8px 18px;
+    border-radius: 5px;
+    
+
+}
+
+.textbox label {
+    
+    display: block;
+    text-align: left;
+    color: rgb(248, 13, 217);
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+.textbox input {
+    
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    width: 100%;
+    
+
+}
+
+.textbox textarea {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    display: block;
+    
+    width: 100%;
+    display: block;
+}
+
+.send-button {
+    display: inline block;
+    background-color: rgb(241, 227, 23);
+    padding-left: 2mm;
+    padding-right: 2mm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    color: white;
+    text-transform :uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 150%;
+    position: relative;
+    top: 3mm;
+    border: 2px solid red;
+    
+    
+}
+ .nav-contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: black;
+    position: relative;
+    left: 10mm;
+    top: 20mm;
+ }
+
+ .nav-contact a {
+     color: crimson;
+    display: block;
+    font-size: 30px;
+    border: 5px solid rgb(245, 41, 167);
+    
+    text-decoration: none;
+    
+    float: top;
+ }
+
+ .nav-contact a:hover {
+     color: rgb(219, 233, 20);
+ }
