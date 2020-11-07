@@ -1,32 +1,73 @@
 .my-name {
-    color: rgb(168, 7, 133);
-    
+    color: rgb(241, 227, 23);
     font-size: 85px;
-    font-weight: 500;
-    text-align: center;
-    margin-right: 20mm;
-    margin-top: 10mm;
-    
-    
+    font-weight: 500px;
+    position: relative;
+    left: 80mm;
+    bottom: 8mm;
     font-weight: bolder;
     font-stretch: narrower;
+    outline-style: solid;
+    display: inline-block;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    padding-bottom: 5mm;
+    padding-top: 5mm;
+    background-color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+    
+    
 }
     
 .julian {
-    width: 20%;
-    margin-left: 200mm;
-    border: 5px solid black
+    width: 18%;
+    float: right;
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+    right: 120mm;
+    bottom: 30mm;
 }
 
 .my-goal {
     font-size: 60px;
     font-weight: 500;
     text-align: right;
-    margin-right: 50mm;
-    margin-bottom: 10mm;
-    
+    position: relative;
+    right: 83mm;
+    bottom: 22mm;
     font-weight: bolder;
-    font-stretch: narrower;
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.nav-items a {
+    color: crimson;
+    display: block;
+    font-size: 50px;
+    border: 10px solid rgb(245, 41, 167);
+    
+    text-decoration: none;
+    
+    float: top;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: black;
+    position: relative;
+    left: 15mm;
+    bottom: 35mm;
+}
+
+.page-wrapper {
+    
+
+
 }
