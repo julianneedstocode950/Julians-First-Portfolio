@@ -347,3 +347,25 @@ a:hover {
     bottom: 80mm;
     left: 30mm;
 }
+
+.resume {
+    position: relative;
+    left: 200mm;
+    bottom: 180mm;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: ;
+    display: inline-block;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    background-color: rgb(226, 15, 33);
+}
+
+.resume a {
+    color: rgb(255, 255, 255)
+}
+
+.resume a:hover {
+    color: rgb(58, 17, 240)
+}
