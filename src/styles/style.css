@@ -19,6 +19,11 @@
     
     
 }
+
+.index-body {
+    background-image: url(../images/bluespace.jpg);
+    background-size: cover;
+}
     
 .julian {
     width: 18%;
@@ -69,9 +74,7 @@ a:hover {
 .page-wrapper {
     
 }
-.index-body {
-    
-}
+
 
 
 
@@ -292,10 +295,11 @@ a:hover {
     position: relative;
     left: 20mm;
     bottom: 100mm;
+    
  }
 
  .nav-experience a {
-     color: crimson;
+    color: crimson;
     display: block;
     font-size: 30px;
     border: 5px solid rgb(245, 41, 167);
@@ -369,3 +373,73 @@ a:hover {
 .resume a:hover {
     color: rgb(58, 17, 240)
 }
+
+.blog-body {
+    background-image: url(../images/red2.jpg);
+    background-size: cover;
+}
+.blog-heading {
+font-size: 60px;
+color: rgb(0, 0, 0);
+font-weight: 500;
+}
+
+.blog1-container {
+    position: relative;
+    
+}
+.blog2-container {
+    position: relative;
+    left: 125mm;
+    bottom: 125mm;
+}
+.blog3-container {
+    position: relative;
+    left: 250mm;
+    bottom: 200mm
+}
+.blog4-container {
+    position: relative;
+    bottom: 235mm;
+}
+.blog5-container {
+    position: relative;
+    left: 125mm;
+    bottom: 365mm;
+}
+
+.coffee {
+
+}
+.coffee-date {
+
+}
+.coffee-heading {
+
+}
+
+.nav-blog {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: black;
+    position: relative;
+    left: 250mm;
+    bottom: 660mm;
+ }
+
+ .nav-blog a {
+     color: crimson;
+    display: block;
+    font-size: 30px;
+    border: 5px solid rgb(245, 41, 167);
+    
+    text-decoration: none;
+    
+    float: top;
+ }
+
+ .nav-blog a:hover {
+    color: rgb(219, 233, 20);
+ }
