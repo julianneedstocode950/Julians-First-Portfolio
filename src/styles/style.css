@@ -1,10 +1,13 @@
+
+ /* "Web Developer" title on index.html */
+
 .my-goal {
     color: rgb(23, 234, 241);
     font-size: 60px;
     font-weight: 500px;
-    position: relative;
-    left: 100mm;
-    top: 50mm;
+    position: absolute;
+    left: 29%;
+    bottom: 40%;
     font-weight: bolder;
     font-stretch: narrower;
     outline-style: solid;
@@ -14,42 +17,48 @@
     padding-bottom: 3mm;
     padding-top: 3mm;
     background-color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
     
+    
+    /* body of index.html used for the background image */
 }
 
 .index-body {
     background-image: url(../images/bluespace.jpg);
     background-size: cover;
-}
+    display:inline-block;
     
+}
+    /* picture of me on index.html */
 .julian {
     width: 20%;
     float: right;
     border: 5px solid crimson;
-    position: relative;
-    right: 20mm;
-    bottom: 50mm;
+    position: absolute;
+    left: 75%;
+    bottom: 22%;
+    display: inline-block;
 }
-
+   /* my name on index.html */
 .my-name {
     font-size: 70px;
     font-weight: 500;
     text-align: right;
-    position: relative;
-    right: 115mm;
-    top: 30mm;
+    position: absolute;
+    left: 32%;
+    bottom: 25%;
     font-weight: bolder;
     color: rgb(26, 194, 224);
     font-family: fantasy;
     font-stretch: wider;
     -webkit-text-stroke: 4px black;
+    display: inline-block;
 
     
 }
-
+/* The links of the nav bar on index.html */
 .nav-items a {
     color: crimson;
     display: block;
@@ -64,20 +73,16 @@
 a:hover {
     color: rgb(23, 234, 241);
 }
-
+/* overall look and positioning of the nav bar */
 .nav-items {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 20%;
     background-color: black;
-    position: relative;
-    left: 15mm;
-    bottom: 35mm;
-}
-
-.page-wrapper {
-    
+    position: absolute;
+    left: 3%;
+    bottom: 36%;
 }
 
 
@@ -89,6 +94,7 @@ a:hover {
     background-size: cover;
 }
 
+/* The bulk of all the elements in the form */
 .contact {
     width: 85%;
     max-width: 600px;
@@ -108,7 +114,7 @@ a:hover {
     margin-top: 0;
     font-weight: 200;
 }
-
+/* styling of each textbox in the form */
 .textbox {
     border:2px solid rgb(23, 234, 241);
     margin: 8px 0;
@@ -117,7 +123,7 @@ a:hover {
     
 
 }
-
+/* styling of the textbox name */
 .textbox label {
     
     display: block;
@@ -128,7 +134,7 @@ a:hover {
     font-weight: bold;
     
 }
-
+/* styling of the users input into the form */
 .textbox input {
     
     border: none;
@@ -140,7 +146,7 @@ a:hover {
     
 
 }
-
+/* styling of the message me section of the form */
 .textbox textarea {
     border: none;
     background: none;
@@ -151,7 +157,7 @@ a:hover {
     width: 100%;
     display: block;
 }
-
+/* send button styling */
 .send-button {
     display: inline block;
     background-color: rgb(0, 0, 0);
@@ -168,7 +174,7 @@ a:hover {
     top: 3mm;
     border: 2px solid crimson;
     
-    
+    /* nav bar styling */
 }
  .nav-contact {
     list-style-type: none;
@@ -180,7 +186,7 @@ a:hover {
     left: 10mm;
     top: 20mm;
  }
-
+/* All nav bars on each page have the same styling, so I'll stop commenting for the others */
  .nav-contact a {
      color: crimson;
     display: block;
@@ -191,16 +197,16 @@ a:hover {
     
     float: top;
  }
-
+/* Hover effect on hyperlinks in the nav bar */
  .nav-contact a:hover {
      color: rgb(23, 234, 241);
  }
-
+/* Background of about page */
 .about-body {
     background-image: url(../images/blue7.jpg);
     background-size: cover;
 }
-
+/* about me heading styling */
 .about-me {
     font-size: 60px;
     color: rgb(0, 0, 0);
@@ -208,7 +214,7 @@ a:hover {
     font-weight: bolder;
     display: inline-block;
 }
-
+/* The top paragraph of the about me page */
 .writing {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
@@ -217,14 +223,14 @@ a:hover {
 
 
 }
-
+/* personality heading */
 .personality {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(23, 234, 241);
     
     display: inline-block;
 }
-
+/* skills heading */
 .skills-heading {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(23, 234, 241);
@@ -233,32 +239,32 @@ a:hover {
     text-align: center;
    
 }
-
+/* Paragraph 2 of the about me page */
 .writing2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     color: white;
 }
-
+/* contains personality heading and paragraph */
 .personality-container {
     position: relative;
     left: 140mm;
     bottom: 30mm;
 }
-
+/* contains skills heading and paragraph */
 .skills-container {
     position: relative;
     left: 140mm;
     bottom: 30mm;
 }
-
+/* brain picture on about me page */
 .brain2 {
     position: relative;
     left: 10mm;
     bottom: 150mm;
     border: 2px dotted black;
 }
-
+/* this picture was removed off the about.html */
 .brain1 {
     position: relative;
     bottom: 105mm;
@@ -317,26 +323,26 @@ a:hover {
  .nav-experience a:hover {
      color: rgb(23, 234, 241);
  }
-
+/* background of experience page */
 .experience-body {
     background-image: url(../images/blue5.jpg);
     background-size: cover;
 }
-
+/* experience heading */
 .experience-heading {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(23, 234, 241);
     display: inline-block;
     text-align: center;
     font-size: 50px;
-   
+   /* contains heading and paragraphs */
 }
 .experience-container {
     position: relative;
     left: 130mm;
     top: 20mm;
 }
-
+/* The bullet points on the experience page */
 .writing3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -348,13 +354,13 @@ a:hover {
     position: relative;
     left: 10mm;
 }
-
+/* book picture on experience page */
 .book {
     position: relative;
     bottom: 80mm;
     left: 30mm;
 }
-
+/* styling of resume box */
 .resume {
     position: relative;
     left: 200mm;
@@ -368,7 +374,7 @@ a:hover {
     padding-bottom: 2mm;
     background-color: rgb(0, 0, 0);
 }
-
+/* styling of resume link */
 .resume a {
     color: rgb(255, 255, 255)
 }
@@ -377,17 +383,18 @@ a:hover {
     color: rgb(23, 234, 241);
     
 }
-
+/* background of the blogs page */
 .blog-body {
     background-image: url(../images/red2.jpg);
     background-size: cover;
 }
+
 .blog-heading {
 font-size: 60px;
 color: rgb(0, 0, 0);
 font-weight: 500;
 }
-
+/* all blog containers enabling movement across the page for each */
 .blog1-container {
     position: relative;
     
@@ -412,15 +419,6 @@ font-weight: 500;
     bottom: 365mm;
 }
 
-.coffee {
-
-}
-.coffee-date {
-
-}
-.coffee-heading {
-
-}
 
 .nav-blog {
     list-style-type: none;
@@ -447,10 +445,12 @@ font-weight: 500;
  .nav-blog a:hover {
     color: rgb(23, 234, 241);
  }
-
+/* email address heading style */
  .email {
      color: rgb(6, 69, 204);
      position: relative;
      top: 30mm;
      left: 5mm;
  }
+
+ 
