@@ -1,3 +1,12 @@
+
+***Note for the marker***
+
+Before looking at my deployed portfolio...
+In the docs folder, I have a folder called "Screenshots of Website - My laptop screen resolution."
+In that folder, my website screenshots based on my personal laptop resolution (1366 x 768) are there because I have messed up responsive design. So this is just to show that it can have the ability to look aesthetically pleasing on desktop, given certain resolutions. So in short, responsive design was not acheived, but it did look good at one stage.
+
+
+
 **Published portfolio website**
 
 [Julians Portfolio]()

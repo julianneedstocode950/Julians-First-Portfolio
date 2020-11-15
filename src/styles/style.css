@@ -22,9 +22,17 @@
     
     
     
-    /* body of index.html used for the background image */
+    
 }
 
+.pagewrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    flex-direction: column;
+}
+
+/* body of index.html used for the background image */
 .index-body {
     background-image: url(../images/bluespace.jpg);
     background-size: cover;
@@ -106,7 +114,11 @@ a:hover {
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 10px;
-    font-family: arial
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -128,7 +140,7 @@ a:hover {
     
     display: block;
     text-align: left;
-    color: crimson
+    color: rgb(0, 0, 0);
     
     font-size: 14px;
     font-weight: bold;
@@ -155,7 +167,7 @@ a:hover {
     margin-top: 6px;
     display: block;
     width: 100%;
-    display: block;
+    
 }
 /* send button styling */
 .send-button {
