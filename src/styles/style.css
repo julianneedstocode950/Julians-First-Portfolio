@@ -453,4 +453,17 @@ font-weight: 500;
      left: 5mm;
  }
 
+ .github {
+     color: rgb(220, 20, 193);
+     position: relative;
+     top: 30mm;
+     left: 10mm;
+ }
+ .linkedin {
+     color: rgb(220, 20, 193);
+     position: relative;
+     top: 30mm;
+     left: 15mm;
+ }
+     
  
