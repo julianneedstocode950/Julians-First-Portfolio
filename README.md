@@ -1,15 +1,15 @@
 
 ***Note for the marker***
 
-Before looking at my deployed portfolio...
-In the docs folder, I have a folder called "Screenshots of Website - My laptop screen resolution."
-In that folder, my website screenshots based on my personal laptop resolution (1366 x 768) are there because I have messed up responsive design. So this is just to show that it can have the ability to look aesthetically pleasing on desktop, given certain resolutions. So in short, responsive design was not acheived, but it did look good at one stage.
+Before looking at my deployed portfolio,
+in the docs folder, I have a folder called "Screenshots." 
+In that folder are my website screenshots based on my personal laptop resolution (1366 x 768.) I have messed up responsive design. This is just to show that the website has the ability to look pleasing to the eye on desktop, given that resolution. So in short, responsive design was not acheived, but it does look nice at the mentioned resolution. (Included the screenshots below)
 
 
 
 **Published portfolio website**
 
-[Julians Portfolio]()
+[Julians Portfolio](https://zealous-snyder-c602a7.netlify.app)
 
 **Git hub repo link**
 
@@ -27,16 +27,28 @@ So the website comes with a fully functional vertical navigation bar that allows
 
 The website uses a fleuroescent blue colour and crimson to stand out from darker background colours. The paragraphs of text also use colours such as white to contrast against dark backgrounds. Responsive design unfortunately is not complete and the website only flows well with a screen resolution of 1366 x 768 which is the equivalent of my laptop screen resolution. Anything much bigger or much smaller than that screen resolution will begin to distort.
 
+# Screen shots of website at 1366 x 768 resolution
+
+![Home Page](./docs/screenshots/home.png)
+
+![Contact Page](./docs/screenshots/contact.png)
+
+![About Page](./docs/screenshots/about.png)
+
+![Experience Page](./docs/screenshots/experience.png)
+
+![Blogs Page](./docs/screenshots/blogs.png)
+
 ## sitemap
 
-[Site map](./docs/sitemap.jpg)
+![Site map](./docs/sitemap.jpg)
 
 
 ## Wireframes
 
-[Wireframe-Desktop](./docs/desktopwireframe.jpg)
+![Wireframe-Desktop](./docs/desktopwireframe.jpg)
 
-[Wireframe-Desktop-2](./docs/blogwireframe.jpg)
+![Wireframe-Desktop-2](./docs/blogwireframe.jpg)
 
-[Wireframe-Mobile](./docs/mobilewireframe.jpg)
+![Wireframe-Mobile](./docs/mobilewireframe.jpg)
 
